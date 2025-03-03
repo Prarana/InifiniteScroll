@@ -16,7 +16,7 @@ const PostList = () => {
   const renderItem = useCallback(
     ({item}) => (
       <View style={styles.item}>
-        <Text style={styles.title}>{item.title}</Text>
+        <Text style={styles.title}>{item.id}. {item.title}</Text>
         <Text>{item.body}</Text>
       </View>
     ),
